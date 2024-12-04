@@ -2,45 +2,45 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<title>Calculator</title>
-	<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-	<header>
-		<h1>Simple Calculator</h1>
-	</header>
-	<main>
-		<div id="container">
-			<div id="calculator">
-				<div id="display" class="full-width"></div>
-				<div id="button-7" class="calculator-button">7</div>
-				<div id="button-8" class="calculator-button">8</div>
-				<div id="button-9" class="calculator-button">9</div>
-				<div id="button-plus" class="calculator-button">+</div>
-				<div id="button-4" class="calculator-button">4</div>
-				<div id="button-5" class="calculator-button">5</div>
-				<div id="button-6" class="calculator-button">6</div>
-				<div id="button-minus" class="calculator-button">-</div>
-				<div id="button-1" class="calculator-button">1</div>
-				<div id="button-2" class="calculator-button">2</div>
-				<div id="button-3" class="calculator-button">3</div>
-				<div id="button-multiply" class="calculator-button">*</div>
-				<div id="button-clear" class="calculator-button">C</div>
-				<div id="button-0" class="calculator-button">0</div>
-				<div id="button-equals" class="calculator-button">=</div>
-				<div id="button-divide" class="calculator-button">/</div>
-			</div>
-			<div id="last-result">
-				<h2>Last Expression:</h2>
-				<span id="last-result-display"></span>
-			</div>
-		</div>
-	</main>
-	<script src="script.js"></script>
+  <header>
+    <h1>Simple Calculator</h1>
+  </header>
+  <main>
+    <div id="container">
+      <div id="calculator">
+        <div id="display" class="full-width" aria-live="polite" aria-label="Calculator display">0</div>
+        <button id="button-7" class="calculator-button" aria-label="Seven">7</button>
+        <button id="button-8" class="calculator-button" aria-label="Eight">8</button>
+        <button id="button-9" class="calculator-button" aria-label="Nine">9</button>
+        <button id="button-plus" class="calculator-button" aria-label="Add">+</button>
+        <button id="button-4" class="calculator-button" aria-label="Four">4</button>
+        <button id="button-5" class="calculator-button" aria-label="Five">5</button>
+        <button id="button-6" class="calculator-button" aria-label="Six">6</button>
+        <button id="button-minus" class="calculator-button" aria-label="Subtract">-</button>
+        <button id="button-1" class="calculator-button" aria-label="One">1</button>
+        <button id="button-2" class="calculator-button" aria-label="Two">2</button>
+        <button id="button-3" class="calculator-button" aria-label="Three">3</button>
+        <button id="button-multiply" class="calculator-button" aria-label="Multiply">*</button>
+        <button id="button-clear" class="calculator-button" aria-label="Clear">C</button>
+        <button id="button-0" class="calculator-button" aria-label="Zero">0</button>
+        <button id="button-equals" class="calculator-button" aria-label="Equals">=</button>
+        <button id="button-divide" class="calculator-button" aria-label="Divide">/</button>
+      </div>
+      <div id="last-result">
+        <h2>Last Expression:</h2>
+        <span id="last-result-display" aria-live="polite">None</span>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
 </body>
 
 </html>
